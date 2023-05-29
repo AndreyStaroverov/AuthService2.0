@@ -1,0 +1,693 @@
+28-05-2023 20:51:46 INFO  HelloApplication:32 - Launch Application
+28-05-2023 22:39:52 INFO  HelloApplication:32 - Launch Application
+28-05-2023 22:40:34 INFO  HelloApplication:32 - Launch Application
+28-05-2023 22:41:03 INFO  HelloApplication:32 - Launch Application
+28-05-2023 22:41:35 INFO  HelloController:72 - Переход на страницу регистрации
+28-05-2023 22:41:38 INFO  RegistrationController:54 - Get Login and password from userTextField
+28-05-2023 22:41:38 INFO  LoginValidation:18 - Validate login
+28-05-2023 22:41:38 INFO  PasswordValidation:18 - Validate password
+28-05-2023 22:41:38 DEBUG RegistrationController:63 - Bad Validation password/login with user: null
+28-05-2023 22:41:40 INFO  RegistrationController:72 - New DB connection
+28-05-2023 22:41:40 DEBUG RegistrationController:74 - Login is null
+28-05-2023 22:41:40 DEBUG RegistrationController:82 - SqlException, check Validation
+28-05-2023 22:41:52 INFO  HelloApplication:32 - Launch Application
+29-05-2023 01:29:20 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:29:29 INFO  HelloController:71 - ------- Переход на страницу регистрации -------
+29-05-2023 01:30:11 INFO  RegistrationController:54 - Get Login and password from userTextField
+29-05-2023 01:30:11 INFO  LoginValidation:18 - Валидация пользователя с логином Andre567!
+29-05-2023 01:30:11 DEBUG RegistrationController:63 - Bad Validation password/login with user: null
+29-05-2023 01:30:14 INFO  RegistrationController:72 - New DB connection
+29-05-2023 01:30:14 DEBUG RegistrationController:74 - Login is null
+29-05-2023 01:30:14 DEBUG RegistrationController:82 - SqlException, check Validation
+29-05-2023 01:31:21 INFO  RegistrationController:54 - Get Login and password from userTextField
+29-05-2023 01:31:21 INFO  LoginValidation:18 - Валидация пользователя с логином Andre567
+29-05-2023 01:31:21 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:31:21 INFO  RegistrationController:58 - Login and Password validation is succesfull
+29-05-2023 01:31:21 INFO  RegistrationController:60 - Hashing password
+29-05-2023 01:31:21 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andre567
+29-05-2023 01:31:21 INFO  RegistrationController:72 - New DB connection
+29-05-2023 01:31:21 INFO  RegistrationController:77 - Registration user and add to DB
+29-05-2023 01:31:21 INFO  DBstorage:31 - Регистрация пользователя с логином [ Andre567 ] в базу данных
+29-05-2023 01:31:21 DEBUG RegistrationController:82 - SqlException, check Validation
+29-05-2023 01:31:46 INFO  RegistrationController:54 - Get Login and password from userTextField
+29-05-2023 01:31:46 INFO  LoginValidation:18 - Валидация пользователя с логином Andre567
+29-05-2023 01:31:46 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:31:46 INFO  RegistrationController:58 - Login and Password validation is succesfull
+29-05-2023 01:31:46 INFO  RegistrationController:60 - Hashing password
+29-05-2023 01:31:46 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andre567
+29-05-2023 01:31:46 INFO  RegistrationController:72 - New DB connection
+29-05-2023 01:31:46 INFO  RegistrationController:77 - Registration user and add to DB
+29-05-2023 01:31:46 INFO  DBstorage:31 - Регистрация пользователя с логином [ Andre567 ] в базу данных
+29-05-2023 01:31:46 DEBUG RegistrationController:82 - SqlException, check Validation
+29-05-2023 01:32:19 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:32:23 INFO  HelloController:71 - ------- Переход на страницу регистрации -------
+29-05-2023 01:32:31 INFO  RegistrationController:54 - Get Login and password from userTextField
+29-05-2023 01:32:31 INFO  LoginValidation:18 - Валидация пользователя с логином Andrey789
+29-05-2023 01:32:31 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:32:31 INFO  RegistrationController:58 - Login and Password validation is succesfull
+29-05-2023 01:32:31 INFO  RegistrationController:60 - Hashing password
+29-05-2023 01:32:31 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andrey789
+29-05-2023 01:32:31 INFO  RegistrationController:72 - New DB connection
+29-05-2023 01:32:31 INFO  RegistrationController:77 - Registration user and add to DB
+29-05-2023 01:32:31 INFO  DBstorage:31 - Регистрация пользователя с логином [ Andrey789 ] в базу данных
+29-05-2023 01:32:32 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:32:32 DEBUG RegistrationController:82 - SqlException, check Validation
+29-05-2023 01:32:57 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:33:05 INFO  HelloController:53 - Получение данных от приложения с логином Andre769 
+29-05-2023 01:33:05 INFO  HelloController:56 - Попытка входа пользователя с логином Andre769 
+29-05-2023 01:33:05 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andre769 
+29-05-2023 01:33:05 INFO  DBstorage:53 - Получение хешпароля пользователя с логином [ Andre769 ] из БД
+29-05-2023 01:33:06 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:33:06 INFO  HelloController:101 - Проверка пароля пользователя с логином Andre769 
+29-05-2023 01:33:06 DEBUG PasswordValidation:29 - NullPointer exc. при проверке пароля пользователя с логином Andre769
+29-05-2023 01:33:06 DEBUG HelloController:138 - Пароли не совпали либо пользователя не существует с логином Andre769 
+29-05-2023 01:33:12 INFO  HelloController:53 - Получение данных от приложения с логином Andre767 
+29-05-2023 01:33:12 INFO  HelloController:56 - Попытка входа пользователя с логином Andre767 
+29-05-2023 01:33:12 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andre767 
+29-05-2023 01:33:12 INFO  DBstorage:53 - Получение хешпароля пользователя с логином [ Andre767 ] из БД
+29-05-2023 01:33:12 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:33:12 INFO  HelloController:101 - Проверка пароля пользователя с логином Andre767 
+29-05-2023 01:33:12 DEBUG PasswordValidation:29 - NullPointer exc. при проверке пароля пользователя с логином Andre767
+29-05-2023 01:33:12 DEBUG HelloController:138 - Пароли не совпали либо пользователя не существует с логином Andre767 
+29-05-2023 01:33:20 INFO  HelloController:53 - Получение данных от приложения с логином Andre679 
+29-05-2023 01:33:20 INFO  HelloController:56 - Попытка входа пользователя с логином Andre679 
+29-05-2023 01:33:20 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andre679 
+29-05-2023 01:33:20 INFO  DBstorage:53 - Получение хешпароля пользователя с логином [ Andre679 ] из БД
+29-05-2023 01:33:20 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:33:20 INFO  HelloController:101 - Проверка пароля пользователя с логином Andre679 
+29-05-2023 01:33:20 DEBUG PasswordValidation:29 - NullPointer exc. при проверке пароля пользователя с логином Andre679
+29-05-2023 01:33:20 DEBUG HelloController:138 - Пароли не совпали либо пользователя не существует с логином Andre679 
+29-05-2023 01:34:47 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:34:49 INFO  HelloController:71 - ------- Переход на страницу регистрации -------
+29-05-2023 01:35:17 INFO  RegistrationController:54 - Get Login and password from userTextField
+29-05-2023 01:35:17 INFO  LoginValidation:18 - Валидация пользователя с логином Efim123
+29-05-2023 01:35:17 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:35:17 INFO  RegistrationController:58 - Login and Password validation is succesfull
+29-05-2023 01:35:17 INFO  RegistrationController:60 - Hashing password
+29-05-2023 01:35:17 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Efim123
+29-05-2023 01:35:17 INFO  RegistrationController:72 - New DB connection
+29-05-2023 01:35:17 INFO  RegistrationController:77 - Registration user and add to DB
+29-05-2023 01:35:17 INFO  DBstorage:31 - Регистрация пользователя с логином [ Efim123 ] в базу данных
+29-05-2023 01:35:17 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:35:17 DEBUG RegistrationController:82 - SqlException, check Validation
+29-05-2023 01:35:26 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:35:34 INFO  HelloController:53 - Получение данных от приложения с логином Efim123 
+29-05-2023 01:35:34 INFO  HelloController:56 - Попытка входа пользователя с логином Efim123 
+29-05-2023 01:35:34 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Efim123 
+29-05-2023 01:35:34 INFO  DBstorage:53 - Получение хешпароля пользователя с логином [ Efim123 ] из БД
+29-05-2023 01:35:34 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:35:34 INFO  HelloController:101 - Проверка пароля пользователя с логином Efim123 
+29-05-2023 01:35:34 DEBUG PasswordValidation:29 - NullPointer exc. при проверке пароля пользователя с логином Efim123
+29-05-2023 01:35:34 DEBUG HelloController:138 - Пароли не совпали либо пользователя не существует с логином Efim123 
+29-05-2023 01:42:46 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:42:50 INFO  HelloController:71 - ------- Переход на страницу регистрации -------
+29-05-2023 01:43:22 INFO  RegistrationController:53 - Получение данных от приложения с логином Andrey456 
+29-05-2023 01:43:22 INFO  LoginValidation:18 - Валидация пользователя с логином Andrey456
+29-05-2023 01:43:22 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:43:22 INFO  RegistrationController:57 - Успешная валидация пароля и логина - Andrey456 
+29-05-2023 01:43:22 INFO  RegistrationController:59 - Хэширования пароля пользователя с логином Andrey456 
+29-05-2023 01:43:22 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andrey456
+29-05-2023 01:43:22 INFO  RegistrationController:71 - Новое подключение к Базе Данных
+29-05-2023 01:43:22 INFO  RegistrationController:76 - Успешная регистрация пользователя с логином Andrey456 
+29-05-2023 01:43:22 INFO  DBstorage:31 - Регистрация пользователя с логином [ Andrey456 ] в базу данных
+29-05-2023 01:43:22 DEBUG RegistrationController:81 - SqlException, пароль или логин не прошли валидацию.
+29-05-2023 01:43:50 INFO  RegistrationController:53 - Получение данных от приложения с логином Andrey456 
+29-05-2023 01:43:50 INFO  LoginValidation:18 - Валидация пользователя с логином Andrey456
+29-05-2023 01:43:50 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:43:50 INFO  RegistrationController:57 - Успешная валидация пароля и логина - Andrey456 
+29-05-2023 01:43:50 INFO  RegistrationController:59 - Хэширования пароля пользователя с логином Andrey456 
+29-05-2023 01:43:50 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andrey456
+29-05-2023 01:43:50 INFO  RegistrationController:71 - Новое подключение к Базе Данных
+29-05-2023 01:43:50 INFO  RegistrationController:76 - Успешная регистрация пользователя с логином Andrey456 
+29-05-2023 01:43:50 INFO  DBstorage:31 - Регистрация пользователя с логином [ Andrey456 ] в базу данных
+29-05-2023 01:43:50 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:43:50 INFO  RegistrationController:87 - ------- Переход на страницу Входа после успешной регистрации -------
+29-05-2023 01:44:07 INFO  HelloController:53 - Получение данных от приложения с логином Andrey456 
+29-05-2023 01:44:07 INFO  HelloController:56 - Попытка входа пользователя с логином Andrey456 
+29-05-2023 01:44:07 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andrey456 
+29-05-2023 01:44:07 INFO  DBstorage:53 - Получение хешпароля пользователя с логином [ Andrey456 ] из БД
+29-05-2023 01:44:07 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:44:07 INFO  HelloController:101 - Проверка пароля пользователя с логином Andrey456 
+29-05-2023 01:44:07 INFO  PasswordValidation:22 - Проверка пароля 'success' пользователя с логином Andrey456
+29-05-2023 01:44:07 INFO  HelloController:112 - Получаем пользователя с логином Andrey456 из БД
+29-05-2023 01:44:07 INFO  DBstorage:42 - Получение данных пользователя с логином [ Andrey456 ] из БД
+29-05-2023 01:44:07 INFO  DBstorage:23 - Использование подключения к базе данных...
+29-05-2023 01:44:07 INFO  HelloController:120 - Доступ для пользователя с логином Andrey456 разрешен
+29-05-2023 01:44:07 INFO  HelloController:122 - ------ Переход на страницу доступа после авторизации -------
+29-05-2023 01:44:07 INFO  HelloController:126 - Загрузка новой сцены...
+29-05-2023 01:52:12 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 01:52:14 INFO  HelloController:71 - ------- Переход на страницу регистрации -------
+29-05-2023 01:52:42 INFO  RegistrationController:53 - Получение данных от приложения с логином Andrey123 
+29-05-2023 01:52:42 INFO  LoginValidation:18 - Валидация пользователя с логином Andrey123
+29-05-2023 01:52:42 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 01:52:42 INFO  RegistrationController:57 - Успешная валидация пароля и логина - Andrey123 
+29-05-2023 01:52:42 INFO  RegistrationController:59 - Хэширования пароля пользователя с логином Andrey123 
+29-05-2023 01:52:42 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином Andrey123
+29-05-2023 01:52:42 INFO  RegistrationController:71 - Новое подключение к Базе Данных
+29-05-2023 01:52:42 INFO  RegistrationController:76 - Успешная регистрация пользователя с логином Andrey123 
+29-05-2023 01:52:42 INFO  DBstorage:32 - Регистрация пользователя с логином [ Andrey123 ] в базу данных
+29-05-2023 01:52:43 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 01:52:43 INFO  RegistrationController:87 - ------- Переход на страницу Входа после успешной регистрации -------
+29-05-2023 01:52:53 INFO  HelloController:53 - Получение данных от приложения с логином Andrey123 
+29-05-2023 01:52:53 INFO  HelloController:56 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 01:52:53 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 01:52:53 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 01:52:53 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 01:52:53 INFO  HelloController:101 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 01:52:53 INFO  PasswordValidation:22 - Проверка пароля 'success' пользователя с логином Andrey123
+29-05-2023 01:52:53 INFO  HelloController:112 - Получаем пользователя с логином Andrey123 из БД
+29-05-2023 01:52:53 INFO  DBstorage:43 - Получение данных пользователя с логином [ Andrey123 ] из БД
+29-05-2023 01:52:53 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 01:52:53 INFO  HelloController:120 - Доступ для пользователя с логином Andrey123 разрешен
+29-05-2023 01:52:53 INFO  HelloController:122 - ------ Переход на страницу доступа после авторизации -------
+29-05-2023 01:52:53 INFO  HelloController:126 - Загрузка новой сцены...
+29-05-2023 02:19:03 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 02:19:12 INFO  HelloController:53 - Получение данных от приложения с логином Andrey123 
+29-05-2023 02:19:12 INFO  HelloController:56 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 02:19:12 INFO  HelloController:98 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 02:19:12 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 02:19:13 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 02:19:13 INFO  HelloController:101 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 02:19:13 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 02:19:13 DEBUG HelloController:138 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 03:47:22 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:07:24 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:07:32 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:07:32 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:07:32 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:07:32 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:07:32 INFO  HelloController:123 - Проверка пароля пользователя неуспешна с логином Andrey123 
+29-05-2023 05:07:32 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:07:32 DEBUG HelloController:125 - База данных уже используется: "C:/Users/andre/dev/AuthService2.0/db/registrationApp.mv.db". Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: "C:/Users/andre/dev/AuthService2.0/db/registrationApp.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+29-05-2023 05:07:49 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:07:49 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:07:49 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:07:49 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:07:49 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:07:49 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:07:49 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:07:49 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:09:54 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:09:54 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:09:54 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:09:54 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:09:54 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:09:54 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:09:54 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:09:54 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:09:57 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:09:57 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:09:57 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:09:57 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:09:57 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:09:57 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:09:57 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:09:57 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:09:58 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:09:58 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:09:58 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:09:58 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:09:58 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:09:58 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:09:58 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:09:58 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:10:00 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:10:00 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:10:00 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:10:00 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:10:00 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:10:00 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:10:00 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:10:00 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:10:01 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:10:01 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:10:01 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:10:01 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:10:01 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:10:01 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:10:01 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:10:01 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:10:51 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:10:58 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:10:58 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:10:58 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:10:58 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:10:58 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:10:58 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:10:58 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:10:58 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:10:58 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:11:04 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:11:04 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:11:04 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:11:04 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:11:04 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:11:04 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:11:05 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:11:05 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:11:05 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:11:22 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:11:22 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:11:22 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:11:22 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:11:22 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:11:22 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:11:22 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:11:22 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:11:22 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:11:24 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:11:24 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:11:24 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:11:24 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:11:24 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:11:24 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:11:24 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:11:24 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:11:24 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:11:25 INFO  HelloController:56 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:11:25 INFO  HelloController:59 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:11:25 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:11:25 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:11:25 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:11:25 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:11:26 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:11:26 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:11:26 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:14:39 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:14:47 INFO  HelloController:57 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:14:47 INFO  HelloController:60 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:14:47 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:14:47 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:14:47 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:14:47 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:14:47 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:14:47 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:14:47 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:14:54 INFO  HelloController:57 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:14:54 INFO  HelloController:60 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:14:54 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:14:54 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:14:54 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:14:54 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:14:54 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:14:54 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:14:54 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:15:04 INFO  HelloController:57 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:15:04 INFO  HelloController:60 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:15:04 INFO  HelloController:107 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:15:04 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:15:04 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:15:04 INFO  HelloController:110 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:15:04 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:15:04 DEBUG HelloController:157 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:15:04 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:28:50 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:28:59 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:28:59 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:28:59 INFO  HelloController:112 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:28:59 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:28:59 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:28:59 INFO  HelloController:115 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:28:59 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:28:59 DEBUG HelloController:168 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:28:59 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 05:30:11 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 05:30:19 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:30:19 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:30:19 INFO  HelloController:112 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:30:19 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:30:20 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:30:20 INFO  HelloController:115 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:30:20 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:30:20 DEBUG HelloController:168 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:30:32 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:30:32 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:30:32 INFO  HelloController:112 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:30:32 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:30:32 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:30:32 INFO  HelloController:115 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:30:32 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:30:32 DEBUG HelloController:168 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:30:36 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 05:30:36 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 05:30:36 INFO  HelloController:112 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 05:30:36 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 05:30:36 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 05:30:36 INFO  HelloController:115 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 05:30:36 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 05:30:36 DEBUG HelloController:168 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 05:30:39 INFO  HelloController:77 - ------- Переход на страницу регистрации -------
+29-05-2023 12:44:20 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 12:44:23 INFO  HelloController:77 - ------- Переход на страницу регистрации -------
+29-05-2023 12:44:33 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 12:44:41 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:44:41 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:44:41 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:44:41 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:44:41 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:44:41 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:44:41 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:44:41 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:44:41 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:44:52 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:44:52 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:44:52 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:44:52 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:44:52 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:44:52 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:44:52 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:44:52 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:44:52 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:44:58 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:44:58 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:44:58 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:44:58 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:44:58 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:44:58 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:44:58 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:44:58 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:44:58 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:47:32 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 12:47:43 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:47:43 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:47:43 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:47:43 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:47:43 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:47:43 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:47:43 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:47:43 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:47:43 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:48:08 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:48:08 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:48:08 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:48:08 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:48:08 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:48:08 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:48:08 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:48:08 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:48:08 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:49:58 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 12:50:06 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:50:06 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:50:24 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:50:26 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:50:27 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:50:48 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:51:00 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:51:52 DEBUG HelloController:161 - Пароли не совпали либо пользователя не существует с логином Andrey123 
+29-05-2023 12:51:52 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:53:30 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 12:53:36 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:53:36 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:53:36 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:53:36 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:53:37 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:53:37 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:53:37 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:53:37 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:53:37 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:53:37 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:53:43 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:53:43 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:53:43 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:53:43 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:53:43 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:53:43 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:53:43 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:53:43 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:53:43 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:53:43 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:56:07 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:56:07 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:56:07 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:56:07 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:56:07 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:56:07 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:56:07 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:56:07 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:56:07 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:56:07 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:56:37 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:56:37 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:56:37 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:56:37 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:56:37 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:56:37 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:56:37 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:56:37 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:56:37 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:56:37 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:56:39 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:56:39 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:56:39 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:56:39 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:56:39 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:56:39 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:56:39 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:56:39 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:56:39 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:56:39 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 12:56:40 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 12:56:40 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 12:56:40 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 12:56:40 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 12:56:40 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 12:56:40 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 12:56:40 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 12:56:40 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 12:56:40 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 12:56:40 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 22:39:11 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 22:39:23 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:39:23 INFO  HelloController:62 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:39:23 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 22:39:23 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:39:23 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:39:23 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 22:39:23 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 22:39:23 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:39:23 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:39:23 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 22:49:55 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 22:50:05 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:50:05 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:50:05 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 22:50:05 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:50:06 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:50:06 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 22:50:06 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 22:50:06 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:50:06 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:50:06 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 22:50:09 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:50:09 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:50:09 INFO  HelloController:117 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:50:22 INFO  HelloController:134 - Получаем пользователя с логином Andrey123 из БД
+29-05-2023 22:50:22 INFO  DBstorage:43 - Получение данных пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:50:22 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:50:22 INFO  HelloController:142 - Доступ для пользователя с логином Andrey123 разрешен
+29-05-2023 22:50:22 INFO  HelloController:144 - ------ Переход на страницу доступа после авторизации -------
+29-05-2023 22:50:22 INFO  HelloController:148 - Загрузка новой сцены...
+29-05-2023 22:50:44 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 22:50:50 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:50:50 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:50:50 INFO  HelloController:111 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 22:50:50 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:50:50 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:50:50 INFO  HelloController:114 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 22:50:51 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 22:50:51 DEBUG HelloController:160 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:50:51 INFO  HelloController:161 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:50:51 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 22:50:53 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:50:53 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:50:53 INFO  HelloController:117 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:50:54 INFO  HelloController:134 - Получаем пользователя с логином Andrey123 из БД
+29-05-2023 22:50:54 INFO  DBstorage:43 - Получение данных пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:50:54 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:50:54 INFO  HelloController:142 - Доступ для пользователя с логином Andrey123 разрешен
+29-05-2023 22:50:54 INFO  HelloController:144 - ------ Переход на страницу доступа после авторизации -------
+29-05-2023 22:50:54 INFO  HelloController:148 - Загрузка новой сцены...
+29-05-2023 22:56:38 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 22:56:48 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:56:48 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:56:48 INFO  HelloController:113 - Попытка получить пароль из БД для проверки с логином Andrey123 
+29-05-2023 22:56:48 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ Andrey123 ] из БД
+29-05-2023 22:56:48 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:56:48 INFO  HelloController:116 - Проверка пароля пользователя с логином Andrey123 
+29-05-2023 22:56:48 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином Andrey123
+29-05-2023 22:56:48 DEBUG HelloController:164 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:56:48 INFO  HelloController:165 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:56:48 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином Andrey123 
+29-05-2023 22:57:02 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:57:02 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:57:02 INFO  HelloController:121 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:04 DEBUG HelloController:164 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:57:04 INFO  HelloController:165 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:04 INFO  BrutForce:50 - Запрет на ввод пароля на 2 минуты для пользователя с логином Andrey123 
+29-05-2023 22:57:12 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:57:12 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:57:12 INFO  HelloController:121 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:14 DEBUG HelloController:164 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:57:14 INFO  HelloController:165 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:14 INFO  BrutForce:53 - Запрет на ввод пароля на 3 минуты для пользователя с логином Andrey123 
+29-05-2023 22:57:20 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:57:20 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:57:20 INFO  HelloController:121 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:25 DEBUG HelloController:164 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:57:25 INFO  HelloController:165 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:25 INFO  BrutForce:56 - Запрет на ввод пароля на 4 минуты для пользователя с логином Andrey123 
+29-05-2023 22:57:28 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:57:28 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:57:28 INFO  HelloController:121 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:28 DEBUG HelloController:164 - Пароли не совпали с логином Andrey123 
+29-05-2023 22:57:28 INFO  HelloController:165 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:57:28 INFO  BrutForce:59 - Блокировка после 5 неудачных попыток пользователя с логином Andrey123 
+29-05-2023 22:57:28 INFO  DBstorage:67 - Блокировка пользователя с логином [ Andrey123 ] в базу данных
+29-05-2023 22:57:28 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:57:28 INFO  BrutForce:70 - Пользователя не существует с логином Andrey123 
+29-05-2023 22:57:29 INFO  HelloController:59 - Получение данных от приложения с логином Andrey123 
+29-05-2023 22:57:29 INFO  HelloController:63 - Попытка входа пользователя с логином Andrey123 
+29-05-2023 22:57:29 INFO  HelloController:121 - Запрет на ввод пароля с логином Andrey123 
+29-05-2023 22:58:56 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 22:58:58 INFO  HelloController:78 - ------- Переход на страницу регистрации -------
+29-05-2023 22:59:57 INFO  RegistrationController:53 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 22:59:57 INFO  LoginValidation:18 - Валидация пользователя с логином EfimLoh123
+29-05-2023 22:59:57 INFO  PasswordValidation:18 - Проверка пароля...
+29-05-2023 22:59:57 INFO  RegistrationController:57 - Успешная валидация пароля и логина - EfimLoh123 
+29-05-2023 22:59:57 INFO  RegistrationController:59 - Хэширования пароля пользователя с логином EfimLoh123 
+29-05-2023 22:59:58 INFO  PasswordValidation:14 - Хэширования пароля пользователя с логином EfimLoh123
+29-05-2023 22:59:58 INFO  RegistrationController:71 - Новое подключение к Базе Данных
+29-05-2023 22:59:58 INFO  RegistrationController:76 - Успешная регистрация пользователя с логином EfimLoh123 
+29-05-2023 22:59:58 INFO  DBstorage:32 - Регистрация пользователя с логином [ EfimLoh123 ] в базу данных
+29-05-2023 22:59:58 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 22:59:58 INFO  RegistrationController:87 - ------- Переход на страницу Входа после успешной регистрации -------
+29-05-2023 23:00:14 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  HelloController:113 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:00:14 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:00:14 INFO  HelloController:116 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:00:14 DEBUG HelloController:164 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  HelloController:165 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:00:14 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  HelloController:113 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:02:16 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:02:16 INFO  HelloController:116 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:02:16 DEBUG HelloController:164 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  HelloController:165 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:02:16 INFO  BrutForce:50 - Запрет на ввод пароля на 2 минуты для пользователя с логином EfimLoh123 
+29-05-2023 23:04:49 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:04:49 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:04:49 INFO  HelloController:113 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:04:49 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:04:49 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:04:49 INFO  HelloController:116 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:04:50 INFO  PasswordValidation:22 - Проверка пароля 'success' пользователя с логином EfimLoh123
+29-05-2023 23:04:50 INFO  HelloController:138 - Получаем пользователя с логином EfimLoh123 из БД
+29-05-2023 23:04:50 INFO  DBstorage:43 - Получение данных пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:04:50 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:04:50 INFO  HelloController:146 - Доступ для пользователя с логином EfimLoh123 разрешен
+29-05-2023 23:04:50 INFO  HelloController:148 - ------ Переход на страницу доступа после авторизации -------
+29-05-2023 23:04:50 INFO  HelloController:152 - Загрузка новой сцены...
+29-05-2023 23:09:33 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 23:09:43 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  HelloController:114 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:09:43 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:09:43 INFO  HelloController:117 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:09:43 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:09:43 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином EfimLoh123 
+29-05-2023 23:09:54 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:09:54 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:09:54 INFO  HelloController:125 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:09:55 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:09:55 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:09:55 INFO  BrutForce:50 - Запрет на ввод пароля на 2 минуты для пользователя с логином EfimLoh123 
+29-05-2023 23:09:56 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:09:56 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:09:56 INFO  HelloController:125 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:09:57 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:09:57 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:09:57 INFO  BrutForce:53 - Запрет на ввод пароля на 3 минуты для пользователя с логином EfimLoh123 
+29-05-2023 23:09:59 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:09:59 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:09:59 INFO  HelloController:125 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:00 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:00 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:00 INFO  BrutForce:56 - Запрет на ввод пароля на 4 минуты для пользователя с логином EfimLoh123 
+29-05-2023 23:10:01 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:10:01 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:10:01 INFO  HelloController:125 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:02 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  BrutForce:59 - Блокировка после 5 неудачных попыток пользователя с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  DBstorage:67 - Блокировка пользователя с логином [ EfimLoh123 ] в базу данных
+29-05-2023 23:10:02 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:10:02 INFO  BrutForce:70 - Пользователя не существует с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:10:02 INFO  HelloController:125 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:03 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:03 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  HelloController:114 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:10:05 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:10:05 INFO  HelloController:117 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:10:05 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:05 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  HelloController:114 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:10:06 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:10:06 INFO  HelloController:117 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:10:06 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:06 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:40 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 23:10:48 INFO  HelloController:59 - Получение данных от приложения с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  HelloController:63 - Попытка входа пользователя с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  HelloController:114 - Попытка получить пароль из БД для проверки с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ EfimLoh123 ] из БД
+29-05-2023 23:10:48 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:10:48 INFO  HelloController:117 - Проверка пароля пользователя с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  PasswordValidation:25 - Проверка пароля 'denied' пользователя с логином EfimLoh123
+29-05-2023 23:10:48 DEBUG HelloController:168 - Пароли не совпали с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  HelloController:169 - Запрет на ввод пароля с логином EfimLoh123 
+29-05-2023 23:10:48 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином EfimLoh123 
+29-05-2023 23:21:50 INFO  HelloApplication:31 - Запуск приложения, подгрузка файлов, проверка конфигурации...
+29-05-2023 23:22:00 INFO  HelloController:64 - Получение данных от приложения с логином dhddd 
+29-05-2023 23:22:00 INFO  HelloController:68 - Попытка входа пользователя с логином dhddd 
+29-05-2023 23:22:00 INFO  HelloController:118 - Попытка получить пароль из БД для проверки с логином dhddd 
+29-05-2023 23:22:00 INFO  DBstorage:54 - Получение хешпароля пользователя с логином [ dhddd ] из БД
+29-05-2023 23:22:00 INFO  DBstorage:24 - Использование подключения к базе данных...
+29-05-2023 23:22:00 INFO  HelloController:121 - Проверка пароля пользователя с логином dhddd 
+29-05-2023 23:22:00 DEBUG PasswordValidation:29 - NullPointer exc. при проверке пароля пользователя с логином dhddd
+29-05-2023 23:22:00 DEBUG HelloController:177 - Пароли не совпали с логином dhddd 
+29-05-2023 23:22:00 INFO  HelloController:178 - Запрет на ввод пароля с логином dhddd 
+29-05-2023 23:22:00 INFO  BrutForce:47 - Запрет на ввод пароля на 1 минуту для пользователя с логином dhddd 
+29-05-2023 23:22:11 INFO  HelloController:64 - Получение данных от приложения с логином dhddd 
+29-05-2023 23:22:11 INFO  HelloController:68 - Попытка входа пользователя с логином dhddd 
+29-05-2023 23:22:11 INFO  HelloController:128 - Запрет на ввод пароля с логином dhddd 
+29-05-2023 23:22:12 DEBUG HelloController:177 - Пароли не совпали с логином dhddd 
+29-05-2023 23:22:12 INFO  HelloController:178 - Запрет на ввод пароля с логином dhddd 
+29-05-2023 23:22:12 INFO  BrutForce:50 - Запрет на ввод пароля на 2 минуты для пользователя с логином dhddd 
+29-05-2023 23:23:15 INFO  HelloController:64 - Получение данных от приложения с логином dhddd 
+29-05-2023 23:23:15 INFO  HelloController:68 - Попытка входа пользователя с логином dhddd 
+29-05-2023 23:23:15 INFO  HelloController:128 - Запрет на ввод пароля с логином dhddd 
+29-05-2023 23:23:16 DEBUG HelloController:177 - Пароли не совпали с логином dhddd 
+29-05-2023 23:23:16 INFO  HelloController:178 - Запрет на ввод пароля с логином dhddd 
+29-05-2023 23:23:16 INFO  BrutForce:53 - Запрет на ввод пароля на 3 минуты для пользователя с логином dhddd 
