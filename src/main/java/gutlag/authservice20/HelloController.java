@@ -1,21 +1,12 @@
 package gutlag.authservice20;
 
-import java.io.IOException;
-import java.net.URL;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
-import java.util.ResourceBundle;
-
+import gutlag.authservice20.constants.UserBanExcption;
 import gutlag.authservice20.model.User;
 import gutlag.authservice20.service.BrutForce;
 import gutlag.authservice20.service.PasswordHashAndSalt;
 import gutlag.authservice20.storageDB.DBstorage;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -27,6 +18,14 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.net.URL;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.util.ResourceBundle;
 
 public class HelloController {
 
@@ -56,6 +55,7 @@ public class HelloController {
 
     @FXML
     void initialize() {
+
         //Проверка данных в случае успеха переброс в AuthPage
 
         loginSignIn.setOnAction(actionEvent -> {
@@ -66,6 +66,10 @@ public class HelloController {
             try {
                 timestamp = new Timestamp(System.currentTimeMillis());
                 log.info(String.format("Попытка входа пользователя с логином %s ", loginTxt));
+                boolean checkLoginForBlockAndFound = checkLogin(loginTxt);
+                if (!checkLoginForBlockAndFound) {
+                    throw new UserBanExcption("Ban");
+                }
                 loginUser(brutForce, loginTxt, passTxt, timestamp);
             } catch (SQLException e) {
                 log.debug("SqlException, ошибка в логине или пароле, необходима проверка.");
@@ -75,9 +79,13 @@ public class HelloController {
                 log.debug("ClassNotFoundException, необходима проверка.");
                 log.debug(e.getMessage());
                 throw new RuntimeException(e);
+            } catch (UserBanExcption e) {
+                log.info("Проблемы с логином у пользователя");
             }
         });
+
         //Переход на RegPage
+
         loginSignUpButton.setOnAction(actionEvent -> {
             loginSignUpButton.getScene().getWindow().hide();
             log.info("------- Переход на страницу регистрации -------");
@@ -97,22 +105,27 @@ public class HelloController {
 
     }
 
-    private void loginUser(BrutForce brutForce,
-                           String loginTxt,
-                           String passTxt,
-                           Timestamp timestamp) throws SQLException, ClassNotFoundException {
+    private void loginUser(BrutForce brutForce, String loginTxt,
+                           String passTxt, Timestamp timestamp) throws SQLException, ClassNotFoundException {
 
+        //Переменные и инициализация классов
         PasswordHashAndSalt psd = new PasswordHashAndSalt();
-
         boolean access = false;
-
         ResultSet resultSet;
         User user;
         DBstorage dBstorage = new DBstorage();
+
         try {
+
+            //Создаем пользователя с логином и паролем
+
             user = new User();
             user.setLogin(loginTxt);
             user.setPassword(passTxt);
+
+            /**
+             *  Здесь происходит проверка на разрешение попытки входа по времени доступа.
+             */
 
             if (LocalDateTime.now().isAfter(ld)) {
                 log.info(String.format("Попытка получить пароль из БД для проверки с логином %s ", loginTxt));
@@ -120,9 +133,7 @@ public class HelloController {
                 user.setCryptoPassword(psw);
                 log.info(String.format("Проверка пароля пользователя с логином %s ", loginTxt));
                 user = psd.checkPassword(user);
-                if (user != null) {
-                    access = true;
-                }
+                access = (user != null);  // Доступ разрешен если пользователь прошел проверку паролей
             } else {
                 access = false;
                 log.info(String.format("Запрет на ввод пароля с логином %s ", loginTxt));
@@ -132,19 +143,16 @@ public class HelloController {
                 alert.setHeaderText(String.format("Запрет на ввод пароля еще %s минуты", m));
                 alert.setContentText("По истечению срока блокировку попробуйте снова");
                 alert.showAndWait();
-                loginSignIn.setDisable(true);
-                final Timeline animation = new Timeline(
-                        new KeyFrame(Duration.seconds(60),
-                                actionEvent -> loginSignIn.setDisable(false)));
-                animation.setCycleCount(1);
-                animation.play();
             }
-
         } catch (SQLException | ClassNotFoundException e) {
             log.info(String.format("Проверка пароля пользователя неуспешна с логином %s ", loginTxt));
             log.debug(e.getMessage());
             throw new RuntimeException("Error in DB query SQLExc");
         }
+
+        /**
+         *  Здесь мы проверяем доступ разрешен он или отказ в доступе
+         */
 
         if (access) {
             try {
@@ -155,6 +163,7 @@ public class HelloController {
                 log.debug(e.getMessage());
                 resultSet = null;
             }
+
             if (resultSet != null) {
                 log.info(String.format("Доступ для пользователя с логином %s разрешен", loginTxt));
                 loginSignUpButton.getScene().getWindow().hide();
@@ -183,7 +192,44 @@ public class HelloController {
             alert.setHeaderText(String.format("Запрет на ввод пароля еще %s минуты", m));
             alert.setContentText("По истечению срока блокировку попробуйте снова");
             alert.showAndWait();
+
+            //Отключаем кнопку входа в случае неудачи на определенное время
+            loginSignIn.setDisable(true);
+            final Timeline animation = new Timeline(
+                    new KeyFrame(Duration.seconds(m*60),
+                            actionEvent -> loginSignIn.setDisable(false)));
+            animation.setCycleCount(1);
+            animation.play();
         }
+    }
+
+
+    private boolean checkLogin(String login) {
+        DBstorage dBstorage = new DBstorage();
+        boolean check = false;
+        try {
+           String status = dBstorage.getStatusOfUser(login);
+           if (status == null) {
+               check = true;
+           } else if (status.equals("block")) {
+               throw new UserBanExcption("Пользователь заблокирован");
+           }
+        } catch (SQLException | ClassNotFoundException e) {
+            log.info(String.format("Такого логина не существует %s ", login));
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error message");
+            alert.setHeaderText("Такого логина не существует");
+            alert.setContentText("Проверьте правильность введеных данных");
+            alert.showAndWait();
+        } catch (UserBanExcption e) {
+            log.info(String.format("Данный пользователь заблокирован %s ", login));
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error message");
+            alert.setHeaderText("Пользователь заблокирован");
+            alert.setContentText("Обратитесь в службу поддержки");
+            alert.showAndWait();
+        }
+        return check;
     }
 
 }
