@@ -1,10 +1,5 @@
 package gutlag.authservice20;
 
-import java.io.IOException;
-import java.net.URL;
-import java.sql.SQLException;
-import java.util.ResourceBundle;
-
 import gutlag.authservice20.model.User;
 import gutlag.authservice20.service.LoginValidation;
 import gutlag.authservice20.service.PasswordHashAndSalt;
@@ -22,6 +17,11 @@ import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
+
 public class RegistrationController {
 
     private static final Logger log = LoggerFactory.getLogger(RegistrationController.class);
@@ -37,6 +37,9 @@ public class RegistrationController {
 
     @FXML
     private Button loginSignIn;
+
+    @FXML
+    private Button loginSignIn1;
 
     @FXML
     private TextField passwordInAuth;
@@ -81,9 +84,30 @@ public class RegistrationController {
                 log.debug("SqlException, пароль или логин не прошли валидацию.");
             }
         });
+
+        loginSignIn1.setOnAction(actionEvent -> {
+            log.info("------- Переход на страницу Входа -------");
+            loginSignIn1.getScene().getWindow().getOnCloseRequest();
+            Stage stage1 = (Stage) loginSignIn1.getScene().getWindow();
+            stage1.close();
+
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(HelloController.class.getResource("hello-view.fxml"));
+            try {
+                fxmlLoader.load();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            Parent parent = fxmlLoader.getRoot();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(parent));
+            stage.showAndWait();
+
+        });
     }
 
     private void openScene() {
+
         log.info("------- Переход на страницу Входа после успешной регистрации -------");
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(HelloController.class.getResource("hello-view.fxml"));

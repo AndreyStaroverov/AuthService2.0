@@ -36,5 +36,10 @@
                 <Font name="GOST type A" size="31.0" />
             </font>
         </Label>
+      <Button fx:id="loginSignIn1" layoutX="415.0" layoutY="335.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #FFE4B5; -fx-background-radius: 12;" text="Авторизация" wrapText="true">
+         <font>
+            <Font name="Tahoma" size="21.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>

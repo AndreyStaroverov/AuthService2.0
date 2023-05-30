@@ -1,5 +1,6 @@
 package gutlag.authservice20;
 
+import gutlag.authservice20.constants.NotFoundException;
 import gutlag.authservice20.constants.UserBanExcption;
 import gutlag.authservice20.model.User;
 import gutlag.authservice20.service.BrutForce;
@@ -87,7 +88,10 @@ public class HelloController {
         //Переход на RegPage
 
         loginSignUpButton.setOnAction(actionEvent -> {
-            loginSignUpButton.getScene().getWindow().hide();
+            loginSignUpButton.getScene().getWindow().getOnCloseRequest();
+            Stage stage1 = (Stage) loginSignUpButton.getScene().getWindow();
+            stage1.close();
+
             log.info("------- Переход на страницу регистрации -------");
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(HelloController.class.getResource("RegPage.fxml"));
@@ -196,7 +200,7 @@ public class HelloController {
             //Отключаем кнопку входа в случае неудачи на определенное время
             loginSignIn.setDisable(true);
             final Timeline animation = new Timeline(
-                    new KeyFrame(Duration.seconds(m*60),
+                    new KeyFrame(Duration.seconds(m * 60),
                             actionEvent -> loginSignIn.setDisable(false)));
             animation.setCycleCount(1);
             animation.play();
@@ -208,12 +212,13 @@ public class HelloController {
         DBstorage dBstorage = new DBstorage();
         boolean check = false;
         try {
-           String status = dBstorage.getStatusOfUser(login);
-           if (status == null) {
-               check = true;
-           } else if (status.equals("block")) {
-               throw new UserBanExcption("Пользователь заблокирован");
-           }
+            String status = dBstorage.getStatusOfUser(login);
+            if (status == null) {
+                log.info(String.format("Успешная проверка пользователя с логином %s ", login));
+                check = true;
+            } else if (status.equals("block")) {
+                throw new UserBanExcption("Пользователь заблокирован");
+            }
         } catch (SQLException | ClassNotFoundException e) {
             log.info(String.format("Такого логина не существует %s ", login));
             Alert alert = new Alert(Alert.AlertType.ERROR);
