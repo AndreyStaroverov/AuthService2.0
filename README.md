@@ -5,4 +5,5 @@
 - валидация логина и пароля
 - использование BCrypt для шифрования пароля с солью
 - использование Prepared-Statement от SQL-injection
+  
 Технологии: Java, JavaFX, Maven
