@@ -7,3 +7,6 @@
 - использование Prepared-Statement от SQL-injection
   
 Технологии: Java, JavaFX, Maven
+
+![DB diagram](https://github.com/AndreyStaroverov/AuthService2.0/blob/main/1mo.png)
+![DB diagram](https://github.com/AndreyStaroverov/AuthService2.0/blob/main/2m.png)
