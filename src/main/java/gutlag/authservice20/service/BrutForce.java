@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * BrutForceDefend class made by AndreyS + DanyaLegger(Pokemonchick)
+ * BrutForceDefend class made by AndreyS + DanyaLeger(Pokemonchick)
  */
 public class BrutForce {
 
@@ -66,6 +66,7 @@ public class BrutForce {
                 }
                 try {
                     dBstorage.BlockUser(login);
+                    resetBruteForceCount();
                 } catch (SQLException | ClassNotFoundException e) {
                     log.info(String.format("Пользователя не существует с логином %s ", login));
                     throw new RuntimeException(e);
@@ -79,9 +80,6 @@ public class BrutForce {
 
     public void resetBruteForceCount() {
         log.info("Ресет класса BruteForce");
-        for (Timestamp t: loginFails.keySet()) {
-            loginFails.remove(t);
-        }
-
+        loginFails = new HashMap<>();
     }
 }

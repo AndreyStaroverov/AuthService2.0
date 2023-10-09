@@ -1,6 +1,5 @@
 package gutlag.authservice20.service;
 
-import gutlag.authservice20.RegistrationController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

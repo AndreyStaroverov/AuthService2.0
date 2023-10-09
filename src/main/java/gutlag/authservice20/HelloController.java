@@ -104,6 +104,7 @@ public class HelloController {
             Parent parent = fxmlLoader.getRoot();
             Stage stage = new Stage();
             stage.setScene(new Scene(parent));
+            stage.setTitle("RegistrationApp");
             stage.showAndWait();
         });
 
@@ -171,6 +172,7 @@ public class HelloController {
             if (resultSet != null) {
                 log.info(String.format("Доступ для пользователя с логином %s разрешен", loginTxt));
                 loginSignUpButton.getScene().getWindow().hide();
+                brutForce.resetBruteForceCount();
                 log.info("------ Переход на страницу доступа после авторизации -------");
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(HelloController.class.getResource("AuthPage.fxml"));

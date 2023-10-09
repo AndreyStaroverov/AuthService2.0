@@ -101,6 +101,7 @@ public class RegistrationController {
             Parent parent = fxmlLoader.getRoot();
             Stage stage = new Stage();
             stage.setScene(new Scene(parent));
+            stage.setTitle("RegistrationApp");
             stage.showAndWait();
 
         });
@@ -109,6 +110,8 @@ public class RegistrationController {
     private void openScene() {
 
         log.info("------- Переход на страницу Входа после успешной регистрации -------");
+        loginSignIn1.getScene().getWindow().getOnCloseRequest();
+
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(HelloController.class.getResource("hello-view.fxml"));
         try {
